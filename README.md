@@ -10,6 +10,10 @@ Event bus for Chrome extensions with typed pub/sub, middleware, event history, w
 ## Installation
 
 ```bash
+npm install webext-event-bus
+```
+
+```bash
 npm i webext-event-bus
 ```
 
