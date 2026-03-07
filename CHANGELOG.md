@@ -1,0 +1,8 @@
+# Changelog
+
+## 1.0.0 (2026-03-07)
+
+- Initial release
+- Typed event bus for extension messaging
+- Subscribe/publish pattern
+- Cross-context event support
