@@ -1,39 +1,47 @@
 {
-    "name": "webext-event-bus",
-    "version": "0.1.0",
-    "description": "Pub/sub event bus for Chrome extensions — typed events, wildcard listeners, cross-context broadcasting, event history, and middleware support for MV3.",
-    "author": "Zovo <hello@zovo.one>",
-    "license": "MIT",
-    "keywords": [
-        "chrome-extension",
-        "event-bus",
-        "pubsub",
-        "events",
-        "messaging",
-        "manifest-v3",
-        "browser-extension",
-        "middleware",
-        "broadcast"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/theluckystrike/webext-event-bus.git"
-    },
-    "main": "./dist/index.js",
-    "types": "./dist/index.d.ts",
-    "files": [
-        "dist",
-        "README.md",
-        "LICENSE"
-    ],
-    "scripts": {
-        "build": "tsc",
-        "test": "node --experimental-vm-modules node_modules/vitest/vitest.mjs run",
-        "prepublishOnly": "npm run build"
-    },
-    "devDependencies": {
-        "@types/chrome": "^0.0.260",
-        "typescript": "^5.3.3",
-        "vitest": "^1.2.0"
+  "name": "webext-event-bus",
+  "version": "0.1.0",
+  "description": "Pub/sub event bus for Chrome extensions — typed events, wildcard listeners, cross-context broadcasting, event history, and middleware support for MV3.",
+  "author": "Zovo <hello@zovo.one>",
+  "license": "MIT",
+  "keywords": [
+    "chrome-extension",
+    "event-bus",
+    "pubsub",
+    "events",
+    "messaging",
+    "manifest-v3",
+    "browser-extension",
+    "middleware",
+    "broadcast"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theluckystrike/webext-event-bus.git"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-vm-modules node_modules/vitest/vitest.mjs run",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.260",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
     }
+  }
 }
