@@ -1,3 +1,8 @@
+[![CI](https://github.com/theluckystrike/webext-event-bus/actions/workflows/ci.yml/badge.svg)](https://github.com/theluckystrike/webext-event-bus/actions)
+[![npm](https://img.shields.io/npm/v/@theluckystrike/webext-event-bus)](https://www.npmjs.com/package/@theluckystrike/webext-event-bus)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+
 # Webext Event Bus
 
 Event bus for Chrome extensions with typed pub/sub, middleware, event history, wildcard listeners, and cross-context broadcasting.
@@ -140,3 +145,6 @@ MIT License
 Maintained by theluckystrike. Built for Chrome extension developers who need a clean pub/sub implementation.
 
 For issues and contributions, visit the GitHub repository.
+
+---
+Built by [theluckystrike](https://github.com/theluckystrike) — [zovo.one](https://zovo.one)
