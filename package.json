@@ -1,7 +1,7 @@
 {
   "name": "webext-event-bus",
   "version": "0.1.0",
-  "description": "Pub/sub event bus for Chrome extensions — typed events, wildcard listeners, cross-context broadcasting, event history, and middleware support for MV3.",
+  "description": "Pub/sub event bus for Chrome extensions -- typed events, wildcard listeners, cross-context broadcasting, and middleware for MV3.",
   "author": "Zovo <hello@zovo.one>",
   "license": "MIT",
   "keywords": [
@@ -13,7 +13,9 @@
     "manifest-v3",
     "browser-extension",
     "middleware",
-    "broadcast"
+    "broadcast",
+    "wildcard",
+    "typed-events"
   ],
   "repository": {
     "type": "git",
